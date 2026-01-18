@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Azure_App_Timm</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/9834d2a9-7890-495b-9b4c-a25d541bcf8f/resourceGroups/az-course-rg/providers/microsoft.insights/components/Azure-App-Timm</ApplicationInsightsResourceId>
+    <UserSecretsId>f3de6dc2-a6d7-4905-8ea1-bbddf99200d2</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
