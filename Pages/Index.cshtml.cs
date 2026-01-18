@@ -16,7 +16,7 @@ namespace Azure_App_Timm.Pages
 
         public void OnGet()
         {
-            ViewData["Greeting"] = _configuration["Greetings"];
+            ViewData["Greeting"] = _configuration["Greeting"];
             
         }
     }
