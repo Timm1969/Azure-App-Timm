@@ -14,7 +14,6 @@ namespace Azure_App_Timm.Pages
 
         public void OnGet()
         {
-            throw new Exception("This is a test exception for demonstration purposes.");
 
         }
     }
