@@ -1,0 +1,10 @@
+﻿namespace Azure_App_Timm.Data
+{
+    public class Person
+    {
+        public int Id { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public DateTime DateofBirth { get; set; }   
+    }
+}
