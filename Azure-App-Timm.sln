@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure-App-Timm", "Azure-App-Timm.csproj", "{321C1756-E022-4E47-A926-AD137122CADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzFunctionExample", "AzFunctionExample", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "..\AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{36448F39-35A1-4199-979F-C2F4CD001ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangyAzureFunc", "..\TangyAzureFunc\TangyAzureFunc.csproj", "{D0234D09-7B21-4CE1-866A-1139DFAC80B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,21 @@ Global
 		{321C1756-E022-4E47-A926-AD137122CADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{321C1756-E022-4E47-A926-AD137122CADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{321C1756-E022-4E47-A926-AD137122CADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36448F39-35A1-4199-979F-C2F4CD001ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36448F39-35A1-4199-979F-C2F4CD001ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36448F39-35A1-4199-979F-C2F4CD001ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36448F39-35A1-4199-979F-C2F4CD001ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0234D09-7B21-4CE1-866A-1139DFAC80B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0234D09-7B21-4CE1-866A-1139DFAC80B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0234D09-7B21-4CE1-866A-1139DFAC80B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0234D09-7B21-4CE1-866A-1139DFAC80B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36448F39-35A1-4199-979F-C2F4CD001ACC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D0234D09-7B21-4CE1-866A-1139DFAC80B9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2713D087-DBAE-40B4-B638-23F5C37B5891}
